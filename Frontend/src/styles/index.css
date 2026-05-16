@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+
+
+/* Yeh naya code add karna hai - Yeh kisi bhi element ko screen lamba karne se rokega */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}

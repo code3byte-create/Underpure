@@ -1,0 +1,48 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# PHP composer
+/vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+otp_log.txt
+
+# Build artifacts
+/dist/
+/build/
+
+# Database files
+*.sql.bak
+*.sql.backup
+
+# OS specific
+.thumbs.db
+Desktop.ini
+
+# Cloudinary cache (if any)
+.cloudinary/
+
+# Supabase local
+supabase/functions/server/deno.lock
